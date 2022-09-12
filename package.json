@@ -1,0 +1,34 @@
+{
+  "name": "wa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkillFactoryDotId/wa-bot-wrapper.git"
+  },
+  "keywords": [
+    "wa-bot"
+  ],
+  "author": "skillfactory.id@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkillFactoryDotId/wa-bot-wrapper/issues"
+  },
+  "homepage": "https://github.com/SkillFactoryDotId/wa-bot-wrapper#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "qrcode": "^1.5.0",
+    "whatsapp-web.js": "^1.16.5"
+  },
+  "engines": {
+    "node": "17.x"
+  }
+}
